@@ -1,65 +1,67 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- 
+    lecture.html
+    Author: Ryan Joseph
+    Version: 1.0
+    Date: 7/9/2018
+-->
+<!DOCTYPE html>
+<html lang="en">
 	<head>
 		<title>COMP1950  | Lecture 01: Tools and Standards | BCIT</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta charset="UTF-8">
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-<script src="/scripts/navigation.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="/scripts/navigation.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="/css/style.css" type="text/css" />				
+		<link rel="stylesheet" href="css/normalize.css" type="text/css">
+		<link rel="stylesheet" href="css/style.css" type="text/css">				
 	</head>	
-	<body id="top">
-		<div id="container">
-		<!-- header begins 
+<body id="top">
+<div id="container">
+	<!-- Change the #header to just header in the css file -->
+	<header>
+		<a href="/"><img src="/images/logo.png" alt="" /></a>
+		<h1>COMP1950<br/>Web Development And Design 2</h1>
+		<h1>Lecture 01: Tools and Standards</h1>
+		<div id="header_classes">
+			<h2>COMP1950 Classes:</h2>
+			<ul>
+				<li><a href="/tuesday/">Tuesday</a></li>
+				<li><a href="/thursday/">Thursday</a></li>
+				<li><a href="/sixweek/">Six Week</a></li>
+			</ul>
+		</div>	
+		<div id="header_links">
+			<ul>
+				<li><a href="https://www.bcit.ca/">BCIT</a></li>
+				<li><a href="https://my.bcit.ca/">myBCIT</a></li>
+				<li><a href="https://learn.bcit.ca/">D2L</a></li>				
+			</ul>
+		</div>				
+	</header>
 
-use
- class="current_class"
-to highlight current class
--->
-<div id="header">
-	<a href="/"><img  src="/images/logo.png" alt="" /></a>
-	<h1>COMP1950<br />Web Development And Design 2</h1>
-	<h1>Lecture 01: Tools and Standards</h1>
-	<div id="header_classes">
-	<h2>COMP1950 Classes: </h2>
-	<ul>
-		<li><a   href="/tuesday/">Tuesday</a></li>
-		<li><a  href="/thursday/">Thursday</a></li>
-		<li><a   href="/sixweek/">Six Week</a></li>
-	</ul>
-	</div>	
-	<div id="header_links">
-	<ul>
-		<li><a href="https://www.bcit.ca/">BCIT</a></li>
-		<li><a href="https://my.bcit.ca/">myBCIT</a></li>
-		<li><a href="https://learn.bcit.ca/">D2L</a></li>				
-	</ul>
-	</div>				
-</div>
-
-<!-- header ends --><!-- navigation begins 
-
-use <a class="current_page">
-to highlight the current page
--->
-	<div id="navigation">			
+	<!-- nav change the css to reflect that -->
+	<nav>			
 		<ul>
 			<li><a id="nav_popup">Lectures</a>
 				<ul>
 					<li><a href="/1950/lecture/01/">01: Tools &amp; Standards</a></li>
-<li><a href="/1950/lecture/02/">02: HTML5</a></li><li><a href="/1950/lecture/03/">03: Advanced CSS</a></li><li><a href="/1950/lecture/04/">04: CSS Layouts</a></li><li><a href="/1950/lecture/05/">05: Responsive Design</a></li><li><a href="/1950/lecture/06/">06: CSS3</a></li><li><a href="/1950/lecture/07/">07: Javascript Frameworks</a></li><li><a href="/1950/lecture/08/">08: Server Architecture</a></li><li><a href="/1950/lecture/09/">09: Templates, Tools</a></li><li><a href="/1950/lecture/10/">10: Methodology</a></li>				
+					<li><a href="/1950/lecture/02/">02: HTML5</a></li>
+					<li><a href="/1950/lecture/03/">03: Advanced CSS</a></li>
+					<li><a href="/1950/lecture/04/">04: CSS Layouts</a></li>
+					<li><a href="/1950/lecture/05/">05: Responsive Design</a></li>
+					<li><a href="/1950/lecture/06/">06: CSS3</a></li>
+					<li><a href="/1950/lecture/07/">07: Javascript Frameworks</a></li>
+					<li><a href="/1950/lecture/08/">08: Server Architecture</a></li>
+					<li><a href="/1950/lecture/09/">09: Templates, Tools</a></li>
+					<li><a href="/1950/lecture/10/">10: Methodology</a></li>				
 				</ul>
 			</li>
-			<li><a id="resources"  href="/1950/resources/">Resources</a></li>
-			<li><a id="about"  href="/1950/about/">About</a></li>
+			<li><a id="resources" href="/1950/resources/">Resources</a></li>
+			<li><a id="about" href="/1950/about/">About</a></li>
 		</ul>			
-	</div>
-	<!-- navigation ends --><!-- 
-page content begins 
-*************************************
--->
+	</nav><!-- navigation ends -->
+<!-- page content begins -->
 <h2>Agenda</h2>
 <div class="contblock">
 	<ul>	
@@ -74,17 +76,17 @@ page content begins
 <h2 id="introductions">Introductions</h2>
 <div class="contblock">
 	<ul>
-	<li> <b>Instructors:</b> Jeff Parker (<a href="mailto:&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#095;&#112;&#097;&#114;&#107;&#101;&#114;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;">&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#095;&#112;&#097;&#114;&#107;&#101;&#114;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;</a>), Michael Whyte (<a href="mailto:&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#095;&#119;&#104;&#121;&#116;&#101;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;">&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#095;&#119;&#104;&#121;&#116;&#101;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;</a>)</li>
-	<li> <b>Web site:</b> this is it </li>
-	<li> <b>All about you...</b>
-	<ul>
-		<li>What is your name?</li>
-		<li>Tell us about your background?</li>
-		<li>What do you hope to achieve in this course? Be specific!</li>
-	</ul></li>
+		<li> <b>Instructors:</b> Jeff Parker (<a href="mailto:&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#095;&#112;&#097;&#114;&#107;&#101;&#114;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;">&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#095;&#112;&#097;&#114;&#107;&#101;&#114;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;</a>), Michael Whyte (<a href="mailto:&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#095;&#119;&#104;&#121;&#116;&#101;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;">&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#095;&#119;&#104;&#121;&#116;&#101;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;</a>)</li>
+		<li> <b>Web site:</b> this is it </li>
+		<li> <b>All about you...</b>
+			<ul>
+				<li>What is your name?</li>
+				<li>Tell us about your background?</li>
+				<li>What do you hope to achieve in this course? Be specific!</li>
+			</ul>
+		</li>
 	</ul>
 </div>
-
 
 <h2>Course Overview</h2>
 <div class="contblock">
@@ -140,7 +142,6 @@ page content begins
 		<li>If you experience connectivity problems, re-check your input, or ask your instructor for assistance.</li>
 	</ol>
 	<img src="/images/filezilla_screenshot.png" alt="Filezilla FTP login screenshot"  />
-
 </div>
 
 
@@ -450,21 +451,16 @@ page content begins
 		</li>
 	</ul>
 	<p>...and yes, there will be a practical, open book quiz at the start of session #2! (hint: practice using a browser based diagnostic tool)</p>	
-</div>
+</div><!-- page content ends -->	
 
-<!-- 
-page content ends
-*************************************
--->		
-		<!-- footer begins -->
-<div id="footer">
+<!-- footer begins -->
+<footer>
 	<ul>
 		<li><a href="#top">Top of Page</a></li>	
 		<li><a href="http://validator.w3.org/check/referer" rel="nofollow" title="Validate as HTML5">Validate HTML</a></li>			
 	</ul>
-</div>
+</footer>
 <!-- footer ends -->
-
-		</div>
-	</body>
+</div><!-- container div -->
+</body>
 </html>
