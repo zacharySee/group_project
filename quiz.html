@@ -16,22 +16,16 @@
         <!-- CSS Files -->
         <link rel="stylesheet" href="css/normalize.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
+
+        <!-- JavaScript -->
+        <script src="/scripts/navigation.js" type="text/javascript"></script>
     </head>
 <body>
-
     <!-- Change the #header to just header in the css file -->
 	<header>
         <a href="/"><img src="/images/logo.png" alt="" /></a>
         <h1>COMP1950<br/>Web Development And Design 2</h1>
         <h1>Lecture 01: Tools and Standards</h1>
-        <div id="header_classes">
-            <h2>COMP1950 Classes:</h2>
-            <ul>
-                <li><a href="/tuesday/">Tuesday</a></li>
-                <li><a href="/thursday/">Thursday</a></li>
-                <li><a href="/sixweek/">Six Week</a></li>
-            </ul>
-        </div>	
         <div id="header_links">
             <ul>
                 <li><a href="https://www.bcit.ca/">BCIT</a></li>
@@ -40,7 +34,6 @@
             </ul>
         </div>				
     </header>
-
     <!-- nav section -->
     <nav>			
         <ul>
@@ -62,35 +55,45 @@
             <li><a id="about" href="/1950/about/">About</a></li>
         </ul>			
     </nav><!-- navigation ends -->
-
     <!-- Main content -->
     <main>
-        <h2>Radio Buttons</h2>
+        <h2>Quiz Section</h2>
         <!-- 
             Change this later to reflect the quiz questions and
             divide them up separately
         -->
-        <form action "">
-            <input type="radio" name="gender" value="male" checked> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
-            <input type="radio" name="gender" value="other"> Other  
-
-            <input type="radio" name="gender" value="male" checked> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
-            <input type="radio" name="gender" value="other"> Other  
-
-            <input type="radio" name="gender" value="male" checked> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
-            <input type="radio" name="gender" value="other"> Other  
-
-            <input type="radio" name="gender" value="male" checked> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
-            <input type="radio" name="gender" value="other"> Other  
-
+        <form class="quizForm" action "">
+            <div class="question">
+                <h3>Question 1</h3>
+                <input type="radio" name="question1" value="male">1<br>
+                <input type="radio" name="question1" value="female">2<br>
+                <input type="radio" name="question1" value="other">3<br> 
+                <input type="radio" name="question1" value="other">4 
+            </div>
+            <div class="question">
+                    <h3>Question 2</h3>
+                <input type="radio" name="question2" value="male"> Male<br>
+                <input type="radio" name="question2" value="female"> Female<br>
+                <input type="radio" name="question2" value="other"> Other<br>  
+                <input type="radio" name="question2" value="other"> Other 
+            </div>
+            <div class="question">
+                <h3>Question 3</h3>
+                <input type="radio" name="question3" value="male" checked> Male<br>
+                <input type="radio" name="question3" value="female"> Female<br>
+                <input type="radio" name="question3" value="other"> Other<br>  
+                <input type="radio" name="question3" value="other"> Other 
+            </div>
+            <div class="question">
+                <h3>Question 4</h3>
+                <input type="radio" name="question4" value="male" checked> Male<br>
+                <input type="radio" name="question4" value="female"> Female<br>
+                <input type="radio" name="question4" value="other"> Other<br>  
+                <input type="radio" name="question4" value="other"> Other 
+            </div> 
             <input type="submit" value="Submit">
         </form> 
     </main>
-
     <!-- footer begins -->
     <footer>
         <ul>
