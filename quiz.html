@@ -1,0 +1,108 @@
+<!-- 
+    quiz.html
+    Author: Ryan Joseph
+    Version: 1.0
+    Date: 7/10/2018
+    Just a basic foundation for the quiz page.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <title>COMP1950 | Quiz</title>
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="css/normalize.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+    </head>
+<body>
+
+    <!-- Change the #header to just header in the css file -->
+	<header>
+        <a href="/"><img src="/images/logo.png" alt="" /></a>
+        <h1>COMP1950<br/>Web Development And Design 2</h1>
+        <h1>Lecture 01: Tools and Standards</h1>
+        <div id="header_classes">
+            <h2>COMP1950 Classes:</h2>
+            <ul>
+                <li><a href="/tuesday/">Tuesday</a></li>
+                <li><a href="/thursday/">Thursday</a></li>
+                <li><a href="/sixweek/">Six Week</a></li>
+            </ul>
+        </div>	
+        <div id="header_links">
+            <ul>
+                <li><a href="https://www.bcit.ca/">BCIT</a></li>
+                <li><a href="https://my.bcit.ca/">myBCIT</a></li>
+                <li><a href="https://learn.bcit.ca/">D2L</a></li>				
+            </ul>
+        </div>				
+    </header>
+
+    <!-- nav section -->
+    <nav>			
+        <ul>
+            <li><a id="nav_popup">Lectures</a>
+                <ul>
+                    <li><a href="/1950/lecture/01/">01: Tools &amp; Standards</a></li>
+                    <li><a href="/1950/lecture/02/">02: HTML5</a></li>
+                    <li><a href="/1950/lecture/03/">03: Advanced CSS</a></li>
+                    <li><a href="/1950/lecture/04/">04: CSS Layouts</a></li>
+                    <li><a href="/1950/lecture/05/">05: Responsive Design</a></li>
+                    <li><a href="/1950/lecture/06/">06: CSS3</a></li>
+                    <li><a href="/1950/lecture/07/">07: Javascript Frameworks</a></li>
+                    <li><a href="/1950/lecture/08/">08: Server Architecture</a></li>
+                    <li><a href="/1950/lecture/09/">09: Templates, Tools</a></li>
+                    <li><a href="/1950/lecture/10/">10: Methodology</a></li>				
+                </ul>
+            </li>
+            <li><a id="resources" href="/1950/resources/">Resources</a></li>
+            <li><a id="about" href="/1950/about/">About</a></li>
+        </ul>			
+    </nav><!-- navigation ends -->
+
+    <!-- Main content -->
+    <main>
+        <h2>Radio Buttons</h2>
+        <!-- 
+            Change this later to reflect the quiz questions and
+            divide them up separately
+        -->
+        <form action "">
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other  
+
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other  
+
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other  
+
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other  
+
+            <input type="submit" value="Submit">
+        </form> 
+    </main>
+
+    <!-- footer begins -->
+    <footer>
+        <ul>
+            <li><a href="#top">Top of Page</a></li>	
+            <li>
+                <a
+                    href="http://validator.w3.org/check/referer" 
+                    rel="nofollow" 
+                    title="Validate as HTML5">Validate HTML
+                </a>
+            </li>			
+        </ul>
+    </footer><!-- footer ends -->
+</body>
+</html>
