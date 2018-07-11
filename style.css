@@ -1,0 +1,195 @@
+/*Name: Krystal Han
+  Date: July 10, 2018*/
+
+/*HTML selectors*/
+
+header, section, footer, aside, nav{
+    display: block; 
+}
+html, body, nav, ul, li, a{
+    margin:0;
+    padding:0;
+}
+header{
+    background-image: url("../images/background.jpg");
+    background-color:white;
+}
+header img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    width: 30%;
+}
+body {
+    font-family:Arial, sans-serif;      
+}
+h1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: georgia;
+    padding-left:20px;
+}
+h2{
+    color:#00386f;
+    padding: 10px;
+    font-family: georgia;
+}  
+ h3{
+    color:#00386f;
+    padding-left:20px;
+    padding-top: 10px;
+    font-family: georgia;
+}
+
+p{
+    padding-left:20px;
+}
+li{
+    padding-right:40px;
+    margin-left:30px;
+}   
+ul{
+    padding-left:20px;
+    padding-top: 10px;
+}
+a{
+    font-weight: bold;
+    color: #ff9224;
+    text-decoration: none;
+}
+a:hover{
+    color:#ffb66c;
+}
+
+nav {
+text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+    background-color: #00386f;
+}
+
+nav li {
+    float: left;
+    margin:0;
+    padding:0;
+}
+
+nav li a {
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+nav ul li a{
+   display: inline-block;
+}
+
+nav li a:hover {
+    background-color:white;
+    color:black;
+}
+nav li a:active {
+    background-color:white;
+}
+/*CLASS selectors*/
+.notice:before {
+    content: "NOTICE:";
+    color:#ff9224;
+    font-weight: bold;
+}
+
+.notice {
+    background-color: #005cb7;
+    color: white;
+    padding: 15px;
+    border: solid #6D748C 5px;
+    border-style: solid;
+    margin:20px;
+}
+.contblock{
+    margin:10px;
+    padding:10px;
+    border:dotted solid solid dotted;
+    border-width:1px 2px 2px 1px;
+    background: white;
+    overflow: auto;
+}
+/*ID selectors*/
+
+#header_classes{
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    width: 100%;
+    height:30px;
+    border-bottom: solid 6px #6D748C;
+    background-color: #eeeeee;
+    color: #3C4663;
+}
+#header_classes h2 {
+    position: absolute;
+    line-height: 10px;
+    right: 350px;
+    font-size: 15px;
+    margin: 0px;
+    color: black;
+}
+#header_classes li {
+    text-decoration: none;
+    color:black;
+    padding: 0px 10px;
+    line-height: 20px;
+    font-size: 15px;
+    float:right;
+}
+
+#header_links {
+    position: absolute;
+    top: 50px;
+    right: 5px;
+    }
+#header_links ul {
+    padding: 0px;
+    list-style-type: none;
+}
+#container
+{
+  width:100%;
+  background-color:#eeeeee;
+}
+#container > h2 {
+    background-color:#005cb7;
+    color: #efefef;
+    margin: 5px 0px;
+    padding: 5px 0px 5px 10px;
+    border: solid 2px #3C4663;
+    border-width: 2px 0px 3px 0px;
+}
+#footer {
+    background-color: #eeeeee;
+    height: 35px;
+    text-align: center;
+    border-bottom: solid 5px #6D748C;
+    border-top: solid 2px #6D748C;
+    margin-top:20px
+}
+#footer ul {
+    list-style-type: none;
+    padding: 0px;
+    position: relative;
+    bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+}
+#footer ul li {
+    float: left;
+    padding-top:15px;
+}
