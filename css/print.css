@@ -1,0 +1,55 @@
+/*Name: Radim
+  Date: July 11, 2018*/
+
+
+/* styles for printers */
+@media print { 
+    
+    /* Hide: Nav, Header, Footer, Aside */
+    header, nav, footer, #header_classes, aside {
+        display: none; 
+    }
+
+    body, main  {
+            
+        /* no floating */
+        float: none;
+        
+        /* let the printer set margins */
+        width: auto;
+        margin: 0;
+        padding: 0;
+        
+        /* don't display background colors or images */
+        background: none;
+    }
+
+    /* No page heading at the bottom of a page */
+    h2, h2, h4, h5, h6 { 	
+        page-break-after: avoid;	
+    }
+
+    /* important page parts begin on a new page */
+    section, article { 	
+        page-break-before: always;	
+    }
+    
+    body, main {
+        color: black;
+        background:none;
+        font: 16pt Georgia, "Times New Roman", Serif;
+    }
+
+    a:link, a:visited {
+        /* use dark color */
+        color: #110088;
+        text-decoration: underline;
+        font-weight: bold;	
+    }
+
+    /*  Add textual hyperlink data to fully qualified hyperlinks */
+    a[href^="http"]:after{
+        content: " (URL: " attr(href) ") ";   
+    }
+
+}
