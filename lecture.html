@@ -21,7 +21,7 @@
 <div id="container">
 	<!-- Change the #header to just header in the css file -->
 	<header>
-		<img  src="images/bcit.png" alt="BCIT logo" />	
+		<img src="images/bcit.png" alt="BCIT logo" />	
 		<h1>COMP1950<br/>Web Development And Design 2</h1>
 		<h1>Lecture 01: Tools and Standards</h1>
 		<div id="header_classes">
@@ -63,6 +63,7 @@
 		</ul>			
 	</nav><!-- navigation ends -->
 <!-- page content begins -->
+<aside>
 <h2>Agenda</h2>
 <div class="contblock">
 	<ul>	
@@ -73,7 +74,9 @@
 		<li><a href="#todo">To Do</a></li>				
 	</ul>
 </div>
+</aside>
 
+<section>
 <h2 id="introductions">Introductions</h2>
 <div class="contblock">
 	<ul>
@@ -88,13 +91,17 @@
 		</li>
 	</ul>
 </div>
+</section>
 
+<section>
 <h2>Course Overview</h2>
 <div class="contblock">
 	<p>Learn more <a href="/1950/about/">about the course</a> to help you determine if this is the right class for you.</p>
 	<p>Review the <a href="/1950/resources/">COMP1950 resources</a> available to help you with this course.</p>
 </div>
+</section>
 
+<section>
 <h2 id="orientation">Orientation: Sharefile</h2>
 <div class="contblock">	
 	<p>BCIT lab computers are re-imaged each day. Files you save on the local C: drive of a lab computer will be erased after the computer power is cycled.</p>		
@@ -104,14 +111,18 @@
 		<li>Save your work to your personal USB or cloud storage account</li>
 		<li>Use your own laptop in class, and dont use the BCIT lab computers</li>
 	</ul>
-</div>	
+</div>
+</section>	
 
+<section>
 <h2>Orientation: Course Materials</h2>					
 <div class="contblock">	
 	<p>COMP 1950 homework assignments, quizzes, in class exercises and example code can be accessed via <a href="https://learn.bcit.ca">Desire 2 Learn</a> (D2L). Use your BCIT student number and password to access D2L. Course materials will become avilable as the course progresses. It is your responsibility to log in and download files as they become available.</p>
 	<p>If you have difficulty gaining access, consult the <a href="https://www.bcit.ca/distance/learnersupport/d2lhelp.shtml">D2L help documentation</a>, or contact BCIT Tech help desk at <code>604-412-7444</code> (Toll free: <code>1-800-351-5533</code>).</p>
-</div>	
-	
+</div>
+</section>	
+
+<section>	
 <h2 id="student_webspace">Orientation: Web space</h2>
 <div class="contblock">
 	<p>Each student will get a personal webspace where you will publish your homework assignments. This is not a continuation of your COMP1850 site (if you had one). This site is primarily for you to house your exercises, assignments and group work. Make it a site that is usable and functional.</p>
@@ -127,7 +138,9 @@
 		<li>Take the name portion of your <code>my.bcit.ca</code> email address and use it at the end of the URL described below (eg: if your email address is '<em>yourname123@my.bcit.ca</em>', your email name is '<em>yourname123</em>', so your url would be '<em>http://bcitcomp.ca/students/yourname123</em>'<br />For example: <code>http://bcitcomp.ca/students/your_bcit_email_name</code></li>
 	</ul>
 </div>
-		
+</section>
+
+<section>		
 <h2>Connect to your bcitcomp.ca account via FTP</h2>
 <div class="contblock">
 	<p>Use Filezilla, or any FTP client to connect to bcitcomp.ca. The bcitcomp.ca server provides you with a space on the internet where you can publish your homework and assignments.</p>
@@ -144,8 +157,9 @@
 	</ol>
 	<img src="/images/filezilla_screenshot.png" alt="Filezilla FTP login screenshot"  />
 </div>
+</section>
 
-
+<section>
 <h2 id="tools">Tools: Visual Studio Code</h2>
 <div class="contblock">
 	<p>There are several development tools to choose from. In COMP 1950 we will use the open source Integrated Devlopment Environment (IDE) from Microsoft called <a href="https://code.visualstudio.com/">Visual Studio Code</a> (VS Code). This is more than a simple text editor, it provides robust code editing, maintenance and testing features, as well as supporting plugins to further increase it's capabilities.</p>
@@ -164,7 +178,9 @@
 		<li><a href="https://code.visualstudio.com/docs">VS Code help documentation</a></li>
 	</ul>
 </div>
+</section>
 
+<section>
 <h2>Tools: Browser-based development</h2>
 <div class="contblock">
 	<p>There are three major web browser platforms to consider:</p>
@@ -203,9 +219,9 @@
 	</ul>	
 	<p>Remember to test your work in as many browsers as you can! <a href="http://browsershots.org/">BrowserShots</a> allows you to do basic testing for earlier versions of Chrome, Firefox, Safari, and Opera. If you need to test for early iterations of IE, try: <a href="http://netrenderer.com/">Netrenderer</a></p>
 </div><!-- END .contblock -->
-			
+</section>			
 
-
+<section>
 <h2>Tools: Extensions</h2>
 <div class="contblock"> 
 	<p>Extensions can add more functionality and features to your development browser.</p>
@@ -228,8 +244,10 @@
 		<li>Text to speech </li>
 		<li>Etc, etc!</li>
 	</ul>
-</div>		
-			
+</div>
+</section>		
+
+<section>			
 <h2>Browser Based Diagnostic Tools</h2>
 <div class="contblock">
 	<p>As web pages get more complex, it can become difficult figuring out what is going on. For example, CSS rules that override other CSS rules, if spread across several files, can be challenge to make sense of. Having a diagnostic tool to assist in developing will make it easier to examine every detail of web pages.</p>	
@@ -253,7 +271,9 @@
 	<p><strong>NOTE:</strong> changes you make with the tool are <strong>client based</strong>, and do not affect the server side HTML/CSS files. Client side changes made with this tool are temporary (they will be lost upon page refresh).</p>
 	<p>The capabilities of these browser tools go well beyond outlining, examining and editing. They provide deep troubleshooting capabilities of the HTTP network, javascript and even XHR (XMLHttpRequest).</p>
 </div>
+</section>
 
+<section>
 <h2 id="standards">Standards: W3C</h2>
 <div class="contblock"> 
 	<p>Just as those who manufacture physical goods are expected to follow the <a href="http://www.iso.org/">International Organization for Standards (ISO)</a>, web developers are expected to adhere to the standards described by the <a href="http://www.w3.org/">World Wide Web Consortium (W3C)</a></p>
@@ -294,7 +314,9 @@
 	</ul>
 	<p>Learn more abou the W3C and standards based devlopment from the <a href="http://www.webstandards.org/learn/faq/">Web Standards Project</a>.</p>
 </div>
+</section>
 
+<section>
 <h2>Standards: Web Development</h2>
 <div class="contblock">
 	<h3>Three goals of standards-driven web development:</h3>
@@ -314,9 +336,10 @@
 		<li>Use a single codebase (no browser sniffing, forked code)</li>
 		<li>Consider special needs users with screen readers. A common browser used with screen reader software is <a href="http://www.webbie.org.uk/">Webbie</a></li>
 	</ul>
-
 </div>
+</section>
 
+<section>
 <h2>Standards: File and Folder Naming</h2>
 <div class="contblock">
 	<p>HTTP urls cannot contain certain characters, and certain characters will cause unwanted effects and behaviours when used in a url. Follow best practices for all file and folder names:</p>
@@ -334,7 +357,9 @@
 		<li>Folder names should always be descriptive. Folder structure should be logical (eg: <code>/hockey/nhl/canucks</code>). </li>
 	</ul>
 </div>
+</section>
 
+<section>
 <h2>Standards: File Management</h2>
 <div class="contblock">
 	<ul>
@@ -347,7 +372,9 @@
 		<li>If there are files/pages on your server no longer being used, be sure to either remove them or locate them in a place where users are not going to accidentally find them</li>							
 	</ul>
 </div>
+</section>
 
+<section>
 <h2 id="coding_standards">Standards: Code Style and Organization</h2>
 <div class="contblock">
 	<p>In COMP1950 students are expected to present a readable, well organized code style:</p>
@@ -361,7 +388,9 @@
 		<li>Include a <a href="http://validator.w3.org/check?uri=referer">referer link</a> on all your HTML pages: <br /><code>&lt;a href="http://validator.w3.org/check?uri=referer"&gt;validate&lt;/a&gt;</code><br /></li>					
 	</ul>	
 </div>
+</section>
 
+<section>
 <h2>Semantic Markup</h2>
 <div class="contblock">
 	<p>Highly <a href="https://html.com/semantic-markup/">semantic HTML content</a> is crucial for usability, accessibilty and search engine optimization. </p>
@@ -436,7 +465,9 @@
 		<li>Separating style (CSS) from structure (HTML), makes it easier to maintain</li>	
 	</ul>
 </div>
+</section>
 
+<aside>
 <h2 id="todo">To Do</h2>
 <div class="contblock">
 	<ul>
@@ -453,6 +484,7 @@
 	</ul>
 	<p>...and yes, there will be a practical, open book quiz at the start of session #2! (hint: practice using a browser based diagnostic tool)</p>	
 </div><!-- page content ends -->	
+</aside>
 
 <!-- footer begins -->
 <div id="footer">
