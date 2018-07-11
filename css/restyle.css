@@ -93,16 +93,23 @@ nav ul {
     background-color: #00386f;
 }
 
-nav ul li ul{
-	padding:0px;
+nav #drop_down{
+    padding:0;
+    margin:0;
 	list-style-type:none;
-	
 	background-color:#dedddd;
 	border:solid 8px #dedddd;		
 	display:none;
 }
-nav ul li ul {
+nav #drop_down li {
+    color: black;
     display: block;
+    width: 100%;
+    padding: auto;
+    border-bottom: 1px solid black;
+}
+nav #drop_down a {
+    color: black;
 }
 
 nav li {
