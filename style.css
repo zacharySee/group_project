@@ -32,9 +32,13 @@ h1{
     padding-left:20px;
 }
 h2{
-    color:#00386f;
-    padding: 10px;
-    font-family: georgia;
+    color:#ffffff;
+    background-color:#005cb7;
+    padding-left: 15px;
+    padding-top:2px;
+    padding-bottom:2px;
+    margin:5px;
+    font-family: georgia; 
 }  
  h3{
     color:#00386f;
