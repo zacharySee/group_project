@@ -1,8 +1,8 @@
 /*
-    template.css
+    hub.scss
     Author: Ryan Joseph
-    Version: 1.0
-    Date: 7/8/2018
+    Version: 1.1
+    Date: 7/11/2018
 */
 body {
   background-color: #ffffff;
@@ -25,6 +25,35 @@ a:hover {
   text-decoration: underline;
 }
 
+header {
+  background-color: #c5c5c5;
+  height: 120px;
+  overflow: auto;
+  padding-top: 25px;
+  border-bottom: solid 5px #3C4663;
+  border-top: solid 6px #cd664b;
+}
+
+header h1:nth-of-type(1) {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #3C4663;
+}
+
+header h2:nth-of-type(1) {
+  color: #3C4663;
+  position: relative;
+  top: 30px;
+  font-size: 26px;
+  margin: 0px;
+}
+
+header img {
+  height: 100px;
+  float: left;
+  margin: 10px;
+}
+
 .contblock {
   background-color: #efefef;
   margin: 10px;
@@ -32,7 +61,6 @@ a:hover {
   border: dotted 2px #BB7365;
   border-style: dotted solid solid dotted;
   border-width: 1px 2px 2px 1px;
-  background: #efefef url("/images/corner.png") no-repeat;
   overflow: auto;
 }
 
@@ -43,6 +71,30 @@ a:hover {
   padding: 2px;
 }
 
-.contblock ul {
-  list-style-image: url("/images/bullet_orange.png");
+footer {
+  background-color: #fae5e0;
+  height: 30px;
+  text-align: center;
+  border-bottom: solid 5px #6D748C;
+  border-top: dotted 1px #6D748C;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+  position: relative;
+  bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+footer ul a {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+footer ul li {
+  float: left;
+  padding-right: 80px;
 }
