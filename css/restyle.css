@@ -96,12 +96,13 @@ nav ul {
 nav ul li ul{
 	padding:0px;
 	list-style-type:none;
-	position:absolute;
-	top:319px;
-	left:5vw;
+	
 	background-color:#dedddd;
 	border:solid 8px #dedddd;		
 	display:none;
+}
+nav ul li ul {
+    display: block;
 }
 
 nav li {
