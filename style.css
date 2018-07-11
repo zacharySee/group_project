@@ -63,8 +63,15 @@ a{
     color: #ff9224;
     text-decoration: none;
 }
+a:visited{
+    color:#549bf8;
+}
 a:hover{
     color:#ffb66c;
+}
+a:active{
+    color:white;
+    background-color:#2552a6;
 }
 
 nav {
