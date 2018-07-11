@@ -31,6 +31,7 @@ header {
   height: 120px;
   overflow: auto;
   padding-top: 25px;
+  padding-bottom: 5%;
   border-bottom: solid 5px #3C4663;
   border-top: solid 6px #cd664b;
 }
@@ -118,6 +119,12 @@ footer ul li {
 
 /* For mobile phones: */
 @media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+  }
   .wrapper {
     flex-direction: column;
   }
