@@ -10,8 +10,8 @@ small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
-	margin: 0;
-	padding: 0;
+	/*margin: 0; 
+	padding: 0; */
 	border: 0;
 	outline: 0;
 	font-weight: inherit;
@@ -24,10 +24,10 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 /* ------------------------------------------------------------
 	General Styles
 ------------------------------------------------------------ */
-
+/*
 * {
 	box-sizing: border-box;
-}
+} */
 body {
 	font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
 	background: white;

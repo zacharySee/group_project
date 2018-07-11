@@ -13,7 +13,8 @@
 body {
 	background-color:#ffffff;
 	font-family:helvetica;
-	margin:0px;	
+    margin: 0;	
+    padding: 0;
 }
 
 h3, h4, h5, h6{
@@ -78,6 +79,17 @@ header{
 .sitemap {
     @include centered();
 	width: 70%;
+}
+
+.siteH3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10%;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
 }
 
 footer{
