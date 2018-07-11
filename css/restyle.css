@@ -218,7 +218,9 @@ main{
     border-width: 2px 0px 3px 0px;
 }
 #site{
-	padding-left:10px;
+	padding-left:25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 section h3 {
     font-size: 1.5em;
