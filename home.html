@@ -1,40 +1,40 @@
+<!--Name:Krystal Han
+	Date: July 11, 2018-->
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">	
 	<head>
-		
 		<title>COMP1950 | BCIT</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta charset="utf-8" />
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-<script src="/scripts/navigation.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css" type="text/css" />	
 
-<link rel="stylesheet" href="/css/style.css" type="text/css" />		
-
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="/scripts/navigation.js" type="text/javascript"></script>
+  
 <!-- Logo in title code -->
 <link rel="icon" href="images/logo.png">
-		
 	</head>	
+
 	<body id="top">
 		<div id="container">
-		<!-- header begins 
+<!--header start--> 
+		<header>
+		<img  src="images/bcit.png" alt="BCIT logo" />	
+		<h1>COMP1950<br />Web Development And Design 2</h1>
+		</header>
 
-use
- class="current_class"
-to highlight current class
--->
-<div id="header">
-	<a href="/"><img  src="/images/logo.png" alt="" /></a>
-	<h1>COMP1950<br />Web Development And Design 2</h1>
-	<h1>COMP1950</h1>
-	<div id="header_classes">
-	<h2>COMP1950 Classes: </h2>
-	<ul>
-		<li><a   href="/tuesday/">Tuesday</a></li>
-		<li><a  href="/thursday/">Thursday</a></li>
-		<li><a   href="/sixweek/">Six Week</a></li>
-	</ul>
-	</div>	
+		<div id="header_classes">
+	<!--nav 1-->
+		<h2>COMP1950 Classes: </h2>
+		<ul>
+			<li><a   href="/tuesday/">Tuesday</a></li>
+			<li><a  href="/thursday/">Thursday</a></li>
+			<li><a   href="/sixweek/">Six Week</a></li>
+		</ul>
+		</div>	
+	<!--nav 2-->
 	<div id="header_links">
 	<ul>
 		<li><a href="https://www.bcit.ca/">BCIT</a></li>
@@ -42,28 +42,36 @@ to highlight current class
 		<li><a href="https://learn.bcit.ca/">D2L</a></li>				
 	</ul>
 	</div>				
-</div>
 
 <!-- header ends --><!-- navigation begins 
 
 use <a class="current_page">
 to highlight the current page
 -->
-	<div id="navigation">			
+   <!--main nav-->
+   <nav>		
 		<ul>
 			<li><a id="nav_popup">Lectures</a>
 				<ul>
 					<li><a href="/1950/lecture/01/">01: Tools &amp; Standards</a></li>
-<li><a href="/1950/lecture/02/">02: HTML5</a></li><li><a href="/1950/lecture/03/">03: Advanced CSS</a></li><li><a href="/1950/lecture/04/">04: CSS Layouts</a></li><li><a href="/1950/lecture/05/">05: Responsive Design</a></li><li><a href="/1950/lecture/06/">06: CSS3</a></li><li><a href="/1950/lecture/07/">07: Javascript Frameworks</a></li><li><a href="/1950/lecture/08/">08: Server Architecture</a></li><li><a href="/1950/lecture/09/">09: Templates, Tools</a></li><li><a href="/1950/lecture/10/">10: Methodology</a></li>				
+					<li><a href="/1950/lecture/02/">02: HTML5</a></li>
+					<li><a href="/1950/lecture/03/">03: Advanced CSS</a></li>
+					<li><a href="/1950/lecture/04/">04: CSS Layouts</a></li>
+					<li><a href="/1950/lecture/05/">05: Responsive Design</a></li>
+					<li><a href="/1950/lecture/06/">06: CSS3</a></li>
+					<li><a href="/1950/lecture/07/">07: Javascript Frameworks</a></li>
+					<li><a href="/1950/lecture/08/">08: Server Architecture</a></li>
+					<li><a href="/1950/lecture/09/">09: Templates, Tools</a></li>
+					<li><a href="/1950/lecture/10/">10: Methodology</a></li>				
 				</ul>
 			</li>
-			<li><a id="resources"  href="/1950/resources/">Resources</a></li>
-			<li><a id="about"  href="/1950/about/">About</a></li>
-		</ul>			
-	</div>
+				<li><a id="resources"  href="/1950/resources/">Resources</a></li>
+				<li><a id="about"  href="/1950/about/">About</a></li>
+			</ul>			
+	</nav>
 	<!-- navigation ends -->		<div class="contblock">
-			
-			<div class="notice">
+ 	<aside>
+	<div class="notice">
 			<p>This website is for BCIT students of COMP 1950.</p>
 			<p>Choose Your COMP1950 Iteration:</p>
 			<ul>
@@ -72,11 +80,14 @@ to highlight the current page
 				<li><a href="/sixweek/">Monday / Wednesday</a></li>				
 			</ul>
 			<p>Check the <a href="https://www.bcit.ca/study/courses/comp1950">course catalogue at BCIT</a> to see when this course is running next.</p>
-			</div>
-			<h3>COMP 1950</h3>
-			<p>This hands-on course follows on from <a href="http://www.bcit.ca/study/courses/comp1850">COMP 1850</a> Applied Web Development Level 1. Students who already understand HTML and CSS will explore web development in more depth with new topics and techniques. Participants will gain a deeper understanding of the latest technologies including HTML5 and CSS3 for developing web sites and applications. There is a focus on responsive design and mobile presentation through the use of Media Queries. Adding behavior to web sites using JavaScript frameworks such as jQuery is introduced. Labs and exercises focus on industry standard web development methodology. </p>
-			<p>COMP 1950 is a required course for the BCIT Computing Advanced Web Technologies associate certificates in Applied Web Development, AWD and Web and Mobile Application Development, WMA, as well as an elective in the CST Diploma. COMP 1950 and <a href="https://www.bcit.ca/study/courses/comp2015">COMP 2015</a> are also the prerequisites for <a href="https://www.bcit.ca/study/courses/comp2052">COMP 2052</a> Android and Mobile Application Development Tools. By the end of this course successful students will be able to build dynamic and semantically marked-up content providing Search Engine Optimized (SEO) pages.</p>
-			<h3>Course Outcomes</h3>
+		</div>
+	</aside>	
+		
+	<section>	
+		<h3>COMP 1950</h3>
+		<p>This hands-on course follows on from <a href="http://www.bcit.ca/study/courses/comp1850">COMP 1850</a> Applied Web Development Level 1. Students who already understand HTML and CSS will explore web development in more depth with new topics and techniques. Participants will gain a deeper understanding of the latest technologies including HTML5 and CSS3 for developing web sites and applications. There is a focus on responsive design and mobile presentation through the use of Media Queries. Adding behavior to web sites using JavaScript frameworks such as jQuery is introduced. Labs and exercises focus on industry standard web development methodology. </p>
+		<p>COMP 1950 is a required course for the BCIT Computing Advanced Web Technologies associate certificates in Applied Web Development, AWD and Web and Mobile Application Development, WMA, as well as an elective in the CST Diploma. COMP 1950 and <a href="https://www.bcit.ca/study/courses/comp2015">COMP 2015</a> are also the prerequisites for <a href="https://www.bcit.ca/study/courses/comp2052">COMP 2052</a> Android and Mobile Application Development Tools. By the end of this course successful students will be able to build dynamic and semantically marked-up content providing Search Engine Optimized (SEO) pages.</p>
+		<h3>Course Outcomes</h3>
 			<ul>
 				<li>Mark up pages using latest HTML technologies, including HTML5.</li>
 				<li>Utilize CSS to control page layout and presentation, including CSS3.</li>
@@ -92,17 +103,18 @@ to highlight the current page
 				<li>Create professional looking typography using web-based fonts.</li>
 				<li> Understand source control using GIT.</li>
 			</ul>
-		</div>
+	</section>
 
-		<!-- footer begins -->
-<div id="footer">
-	<ul>
-		<li><a href="#top">Top of Page</a></li>	
-		<li><a href="http://validator.w3.org/check/referer" rel="nofollow" title="Validate as HTML5">Validate HTML</a></li>			
-	</ul>
-</div>
+	<!-- footer begins -->
+	<aside>
+		<div id="footer">
+		 	<ul>
+			<li><a href="#top">Top of Page</a></li>	
+			<li><a href="http://validator.w3.org/check/referer" rel="nofollow" title="Validate as HTML5">Validate HTML</a></li>			
+			</ul>
+		</div>		
+	</aside>
 <!-- footer ends -->
-
-		</div>
+		</div><!-- close div container--> 
 	</body>
 </html>
