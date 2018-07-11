@@ -71,6 +71,12 @@ header img {
   padding: 2px;
 }
 
+.sitemap {
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
 footer {
   background-color: #fae5e0;
   height: 30px;
