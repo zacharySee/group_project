@@ -37,6 +37,7 @@ h1{
     margin-right: auto;
     font-family: georgia;
     padding-left:20px;
+	font-weight:bold;
 }
 h2{
     color:#ffffff;
@@ -46,6 +47,7 @@ h2{
     padding-bottom:2px;
     margin:5px;
     font-family: georgia; 
+	font-weight: bold;
 }  
  h3{
     color:#00386f;
@@ -215,6 +217,11 @@ main{
     padding: 5px 0px 5px 10px;
     border: solid 2px #3C4663;
     border-width: 2px 0px 3px 0px;
+}
+#site{
+	padding-left:25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 section h3 {
     font-size: 1.5em;

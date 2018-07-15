@@ -3,74 +3,113 @@
     Author: Ryan Joseph
     Version: 1.0
     Date: 7/9/2018
+
+	Author: Krystal Han 
+	Version 2.0
+	Date: July 11, 2018
 -->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>COMP1950  | Lecture 01: Tools and Standards | BCIT</title>
-		<meta charset="UTF-8" name="description" content="Web developement 2 - BCIT COURSE - COMP 1950" />
 
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
-		<script src="../js/navigation.js" type="text/javascript"></script>
-		
-		<link rel="stylesheet" href="../css/reset.css">
-		<!--<link rel="stylesheet" href="../css/normalize.css" type="text/css">-->		
-		<link rel="stylesheet" href="../css/restyle.css" type="text/css">
-		<link rel="stylesheet" href="../css/print.css"   media="print" />
-		
-		<!-- Logo in title code -->
-		<link rel="icon" href="../images/logo.png">
-	</head>	
-  
+<head>
+	<title>COMP1950 | BCIT</title>
+	<meta charset="utf-8" name="description" content="Web developement 2 - BCIT COURSE - COMP 1950" />
+
+	<link rel="stylesheet" href="../css/reset.css" media="screen">
+	<link rel="stylesheet" href="../css/restyle.css" media="screen"  />
+	<link rel="stylesheet" href="../css/print.css"   media="print" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+	<script src="../js/navigation.js" type="text/javascript"></script>
+
+	<!-- Logo in title code -->
+	<link rel="icon" href="../images/logo.png">
+</head>
+
 <body id="top">
-<div id="container">
-	<!-- Change the #header to just header in the css file -->
-	<header>
-		<img src="../images/bcit.png" alt="BCIT logo" />	
-		<h1>COMP1950<br/>Web Development And Design 2</h1>
-		<h1>Lecture 01: Tools and Standards</h1>
-		<div id="header_classes">
-			<h2>COMP1950 Classes:</h2>
-			<ul>
-				<li><a href="/tuesday/">Tuesday</a></li>
-				<li><a href="/thursday/">Thursday</a></li>
-				<li><a href="/sixweek/">Six Week</a></li>
-			</ul>
-		</div>	
-		<div id="header_links">
-			<ul>
-				<li><a href="https://www.bcit.ca/">BCIT</a></li>
-				<li><a href="https://my.bcit.ca/">myBCIT</a></li>
-				<li><a href="https://learn.bcit.ca/">D2L</a></li>				
-			</ul>
-		</div>				
-	</header>
+	<div id="container">
+		<!--header start-->
+		<header>
+			<img src="../images/bcit.png" alt="BCIT logo" />
+			<h1>COMP1950
+				<br />Web Development And Design 2</h1>
+		</header>
 
-	<!-- nav change the css to reflect that -->
-	<nav>			
-		<ul>
-			<li><a id="nav_popup">Lectures</a>
-				<ul>
-					<li><a href="/1950/lecture/01/">01: Tools &amp; Standards</a></li>
-					<li><a href="/1950/lecture/02/">02: HTML5</a></li>
-					<li><a href="/1950/lecture/03/">03: Advanced CSS</a></li>
-					<li><a href="/1950/lecture/04/">04: CSS Layouts</a></li>
-					<li><a href="/1950/lecture/05/">05: Responsive Design</a></li>
-					<li><a href="/1950/lecture/06/">06: CSS3</a></li>
-					<li><a href="/1950/lecture/07/">07: Javascript Frameworks</a></li>
-					<li><a href="/1950/lecture/08/">08: Server Architecture</a></li>
-					<li><a href="/1950/lecture/09/">09: Templates, Tools</a></li>
-					<li><a href="/1950/lecture/10/">10: Methodology</a></li>				
-				</ul>
-			</li>
-			<li><a id="resources" href="/1950/resources/">Resources</a></li>
-			<li><a id="about" href="/1950/about/">About</a></li>
-		</ul>			
-	</nav><!-- navigation ends -->
+	
+		<!--top nav-->
+		<div id="header_classes">
+			<ul>
+				<li>
+					<a href="https://www.bcit.ca/">BCIT</a>
+				</li>
+				<li>
+					<a href="https://my.bcit.ca/">myBCIT</a>
+				</li>
+				<li>
+					<a href="https://learn.bcit.ca/">D2L</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- header ends -->
+		<!-- navigation begins 
+
+use <a class="current_page">
+to highlight the current page
+-->
+		<!--main nav-->
+		<nav>
+			<ul>
+				<li>
+					<a id="nav_popup">Lectures</a>
+					
+				</li>
+				<li>
+					<a id="resources" href="lecture.html">Lesson 2</a>
+				</li>
+				<li>
+					<a id="Quiz" href="quiz.html">Quiz</a>
+				</li>
+			</ul>
+			<ul id="drop_down">
+				<li>
+					<a href="/1950/lecture/01/">01: Tools &amp; Standards</a>
+				</li>
+				<li>
+					<a href="/1950/lecture/02/">02: HTML5</a>
+				</li>
+				<li>
+					<a href="/1950/lecture/03/">03: Advanced CSS</a>
+				</li>
+				<li>
+					<a href="/1950/lecture/04/">04: CSS Layouts</a>
+				</li>
+				<li>
+					<a href="/1950/lecture/05/">05: Responsive Design</a>
+				</li>
+				<li>
+					<a href="/1950/lecture/06/">06: CSS3</a>
+				</li>
+				<li>
+					<a href="/1950/lecture/07/">07: Javascript Frameworks</a>
+				</li>
+				<li>
+					<a href="/1950/lecture/08/">08: Server Architecture</a>
+				</li>
+				<li>
+					<a href="/1950/lecture/09/">09: Templates, Tools</a>
+				</li>
+				<li>
+					<a href="/1950/lecture/10/">10: Methodology</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- navigation ends -->
+		
 <!-- page content begins -->
+<main>
 <aside>
 <h2>Agenda</h2>
-<div class="contblock">
 	<ul>	
 		<li><a href="#introductions">Introductions</a></li>
 		<li><a href="#orientation">Orientation</a></li>
@@ -78,12 +117,10 @@
 		<li><a href="#standards">Standards based development</a></li>
 		<li><a href="#todo">To Do</a></li>				
 	</ul>
-</div>
 </aside>
 
 <section>
-<h2 id="introductions">Introductions</h2>
-<div class="contblock">
+<h2>Introductions</h2>
 	<ul>
 		<li> <b>Instructors:</b> Jeff Parker (<a href="mailto:&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#095;&#112;&#097;&#114;&#107;&#101;&#114;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;">&#106;&#101;&#102;&#102;&#114;&#101;&#121;&#095;&#112;&#097;&#114;&#107;&#101;&#114;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;</a>), Michael Whyte (<a href="mailto:&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#095;&#119;&#104;&#121;&#116;&#101;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;">&#109;&#105;&#099;&#104;&#097;&#101;&#108;&#095;&#119;&#104;&#121;&#116;&#101;&#064;&#098;&#099;&#105;&#116;&#046;&#099;&#097;</a>)</li>
 		<li> <b>Web site:</b> this is it </li>
@@ -95,20 +132,16 @@
 			</ul>
 		</li>
 	</ul>
-</div>
 </section>
 
 <section>
 <h2>Course Overview</h2>
-<div class="contblock">
 	<p>Learn more <a href="/1950/about/">about the course</a> to help you determine if this is the right class for you.</p>
 	<p>Review the <a href="/1950/resources/">COMP1950 resources</a> available to help you with this course.</p>
-</div>
 </section>
 
 <section>
-<h2 id="orientation">Orientation: Sharefile</h2>
-<div class="contblock">	
+<h2>Orientation: Sharefile</h2>
 	<p>BCIT lab computers are re-imaged each day. Files you save on the local C: drive of a lab computer will be erased after the computer power is cycled.</p>		
 	<h4>Options For Saving Files:</h4>
 	<ul>
@@ -116,20 +149,16 @@
 		<li>Save your work to your personal USB or cloud storage account</li>
 		<li>Use your own laptop in class, and dont use the BCIT lab computers</li>
 	</ul>
-</div>
 </section>	
 
 <section>
 <h2>Orientation: Course Materials</h2>					
-<div class="contblock">	
 	<p>COMP 1950 homework assignments, quizzes, in class exercises and example code can be accessed via <a href="https://learn.bcit.ca">Desire 2 Learn</a> (D2L). Use your BCIT student number and password to access D2L. Course materials will become avilable as the course progresses. It is your responsibility to log in and download files as they become available.</p>
 	<p>If you have difficulty gaining access, consult the <a href="https://www.bcit.ca/distance/learnersupport/d2lhelp.shtml">D2L help documentation</a>, or contact BCIT Tech help desk at <code>604-412-7444</code> (Toll free: <code>1-800-351-5533</code>).</p>
-</div>
 </section>	
 
 <section>	
-<h2 id="student_webspace">Orientation: Web space</h2>
-<div class="contblock">
+<h2>Orientation: Web space</h2>
 	<p>Each student will get a personal webspace where you will publish your homework assignments. This is not a continuation of your COMP1850 site (if you had one). This site is primarily for you to house your exercises, assignments and group work. Make it a site that is usable and functional.</p>
 	<ul>
 		<li>Your instructor will create webspaces for each of you.</li>
@@ -142,12 +171,10 @@
 		</li>
 		<li>Take the name portion of your <code>my.bcit.ca</code> email address and use it at the end of the URL described below (eg: if your email address is '<em>yourname123@my.bcit.ca</em>', your email name is '<em>yourname123</em>', so your url would be '<em>http://bcitcomp.ca/students/yourname123</em>'<br />For example: <code>http://bcitcomp.ca/students/your_bcit_email_name</code></li>
 	</ul>
-</div>
 </section>
 
 <section>		
 <h2>Connect to your bcitcomp.ca account via FTP</h2>
-<div class="contblock">
 	<p>Use Filezilla, or any FTP client to connect to bcitcomp.ca. The bcitcomp.ca server provides you with a space on the internet where you can publish your homework and assignments.</p>
 	<ol>	
 		<li>Choose: <strong>File->SiteManager->New Site</strong>, then describe the FTP server, eg "bcitcomp.ca"</li>
@@ -160,13 +187,11 @@
 		<li>Click: <strong>Connect</strong></li>
 		<li>If you experience connectivity problems, re-check your input, or ask your instructor for assistance.</li>
 	</ol>
-	<img src="/images/filezilla_screenshot.png" alt="Filezilla FTP login screenshot"  />
-</div>
+	<img id="site" src="../images/filezilla_screenshot.png" alt="Filezilla FTP login screenshot"  />
 </section>
 
 <section>
 <h2 id="tools">Tools: Visual Studio Code</h2>
-<div class="contblock">
 	<p>There are several development tools to choose from. In COMP 1950 we will use the open source Integrated Devlopment Environment (IDE) from Microsoft called <a href="https://code.visualstudio.com/">Visual Studio Code</a> (VS Code). This is more than a simple text editor, it provides robust code editing, maintenance and testing features, as well as supporting plugins to further increase it's capabilities.</p>
 	<h3>Lab Computers</h3>
 	<p>VS Code should already be installed on COMP1950 lab computers. The executable is found at <code>C:/Program Files/Microsoft VS Code/Code.exe</code></p>	
@@ -182,12 +207,10 @@
 		<li><a href="https://code.visualstudio.com/docs/introvideos/basics">Setup and basics of VS Code</a></li>
 		<li><a href="https://code.visualstudio.com/docs">VS Code help documentation</a></li>
 	</ul>
-</div>
 </section>
 
 <section>
 <h2>Tools: Browser-based development</h2>
-<div class="contblock">
 	<p>There are three major web browser platforms to consider:</p>
 	<ul>
 		<li><a href="https://www.mozilla.org/en-US/">Mozilla</a>
@@ -223,12 +246,10 @@
 		</li>			
 	</ul>	
 	<p>Remember to test your work in as many browsers as you can! <a href="http://browsershots.org/">BrowserShots</a> allows you to do basic testing for earlier versions of Chrome, Firefox, Safari, and Opera. If you need to test for early iterations of IE, try: <a href="http://netrenderer.com/">Netrenderer</a></p>
-</div><!-- END .contblock -->
 </section>			
 
 <section>
 <h2>Tools: Extensions</h2>
-<div class="contblock"> 
 	<p>Extensions can add more functionality and features to your development browser.</p>
 	<p>The <a href="http://chrispederick.com/work/web-developer/">Web Developer Toolbar</a> is available for Chrome, Firefox and Opera. Some useful features include:</p>
 	<ul>	
@@ -249,12 +270,10 @@
 		<li>Text to speech </li>
 		<li>Etc, etc!</li>
 	</ul>
-</div>
 </section>		
 
 <section>			
 <h2>Browser Based Diagnostic Tools</h2>
-<div class="contblock">
 	<p>As web pages get more complex, it can become difficult figuring out what is going on. For example, CSS rules that override other CSS rules, if spread across several files, can be challenge to make sense of. Having a diagnostic tool to assist in developing will make it easier to examine every detail of web pages.</p>	
 	<p>Most modern browsers have some kind of development environment that can be turned on or triggered via extensions and/or plug-ins.</p>	
 	<h3>Web Browser Tools</h3>
@@ -275,12 +294,10 @@
 	</ul>
 	<p><strong>NOTE:</strong> changes you make with the tool are <strong>client based</strong>, and do not affect the server side HTML/CSS files. Client side changes made with this tool are temporary (they will be lost upon page refresh).</p>
 	<p>The capabilities of these browser tools go well beyond outlining, examining and editing. They provide deep troubleshooting capabilities of the HTTP network, javascript and even XHR (XMLHttpRequest).</p>
-</div>
 </section>
 
 <section>
-<h2 id="standards">Standards: W3C</h2>
-<div class="contblock"> 
+<h2>Standards: W3C</h2>
 	<p>Just as those who manufacture physical goods are expected to follow the <a href="http://www.iso.org/">International Organization for Standards (ISO)</a>, web developers are expected to adhere to the standards described by the <a href="http://www.w3.org/">World Wide Web Consortium (W3C)</a></p>
 		
 	<h3>W3C: World Wide Web Consortium</h3>
@@ -318,12 +335,10 @@
 		<li>What are the consequences of using a non-standard version?</li>		
 	</ul>
 	<p>Learn more abou the W3C and standards based devlopment from the <a href="http://www.webstandards.org/learn/faq/">Web Standards Project</a>.</p>
-</div>
 </section>
 
 <section>
 <h2>Standards: Web Development</h2>
-<div class="contblock">
 	<h3>Three goals of standards-driven web development:</h3>
 	<ol>
 		<li>Compatibility (creating web pages that work well in all browsers)</li>
@@ -341,12 +356,10 @@
 		<li>Use a single codebase (no browser sniffing, forked code)</li>
 		<li>Consider special needs users with screen readers. A common browser used with screen reader software is <a href="http://www.webbie.org.uk/">Webbie</a></li>
 	</ul>
-</div>
 </section>
 
 <section>
 <h2>Standards: File and Folder Naming</h2>
-<div class="contblock">
 	<p>HTTP urls cannot contain certain characters, and certain characters will cause unwanted effects and behaviours when used in a url. Follow best practices for all file and folder names:</p>
 	<ul>
 		<li>File and folder names should <strong>NOT</strong> contain:
@@ -361,12 +374,10 @@
 		<li>Filenames should either be descriptive of the file contents, or use the default page name: <code>index.htm</code>, <code>index.html</code> or <code>index.shtml</code> (or whatever your server default is)	</li>
 		<li>Folder names should always be descriptive. Folder structure should be logical (eg: <code>/hockey/nhl/canucks</code>). </li>
 	</ul>
-</div>
 </section>
 
 <section>
 <h2>Standards: File Management</h2>
-<div class="contblock">
 	<ul>
 		<li>Including an <code>index.html</code> file in every folder on your server will ensure users cannot go snooping around your filesystem. the index.html file can be a blank HTML page if you like, as long as the user does not see a list of files when they request a folder </li>				
 		<li>Browser caching can reduce excessive request/response transactions between client and server. however, some browsers may cache things like the CSS, so if the styles have changed since caching the client may not get the latest styles.
@@ -376,28 +387,25 @@
 		</ul></li>
 		<li>If there are files/pages on your server no longer being used, be sure to either remove them or locate them in a place where users are not going to accidentally find them</li>							
 	</ul>
-</div>
 </section>
 
 <section>
-<h2 id="coding_standards">Standards: Code Style and Organization</h2>
-<div class="contblock">
+<h2>Standards: Code Style and Organization</h2>
 	<p>In COMP1950 students are expected to present a readable, well organized code style:</p>
 	<ul>
-		<li>Comment <strong>all code</strong> with your name (or nickname if you prefer). Do this for all text based files (<code>.html</code>, <code>.css</code>, <code>.js</code>, <code>.php</code>, etc)<br /><img src="/images/html_commenting.png" alt="Example of HTML commenting" /><br /><img src="/images/css_commenting.png" alt="Example of CSS commenting" /></li>
-		<li>In HTML, use carriage return and tabs to indicate parent-child tag relationships. Likewise, code your CSS to make it easy to see which rules are applied to each selector.<br /><img src="/images/code_tabbing.png" alt="Example folder structure" /></li>
-		<li>Separate different file types into folders. At minimum, keep all non-html files in their own folder. If you like you can make a dedicated 'html' folder for your <code>.html</code> files as well. <br /><img src="/images/folder_structure.png" alt="Example folder structure" /></li>
+		<li>Comment <strong>all code</strong> with your name (or nickname if you prefer). Do this for all text based files (<code>.html</code>, <code>.css</code>, <code>.js</code>, <code>.php</code>, etc)<br />
+		<img src="../images/html_commenting.png" alt="Example of HTML commenting" /><br /><img src="../images/css_commenting.png" alt="Example of CSS commenting" /></li>
+		<li>In HTML, use carriage return and tabs to indicate parent-child tag relationships. Likewise, code your CSS to make it easy to see which rules are applied to each selector.<br /><img src="../images/code_tabbing.png" alt="Example folder structure" /></li>
+		<li>Separate different file types into folders. At minimum, keep all non-html files in their own folder. If you like you can make a dedicated 'html' folder for your <code>.html</code> files as well. <br /><img src="../images/folder_structure.png" alt="Example folder structure" /></li>
 		<li>Use the <code>.html</code> extension for all HTML files (not <code>.htm</code>). Use the typical extension for all other text based files.</li>
 		<li>Write structurally valid HTML code: <a href="http://validator.w3.org/">W3C HTML validator</a></li>
 		<li>Write syntactically valid CSS code: <a href="http://jigsaw.w3.org/css-validator/">W3C CSS validator</a></li>	
 		<li>Include a <a href="http://validator.w3.org/check?uri=referer">referer link</a> on all your HTML pages: <br /><code>&lt;a href="http://validator.w3.org/check?uri=referer"&gt;validate&lt;/a&gt;</code><br /></li>					
 	</ul>	
-</div>
 </section>
 
 <section>
 <h2>Semantic Markup</h2>
-<div class="contblock">
 	<p>Highly <a href="https://html.com/semantic-markup/">semantic HTML content</a> is crucial for usability, accessibilty and search engine optimization. </p>
 	<h3>What is Semantic Markup?</h3>
 	<ul>
@@ -469,12 +477,10 @@
 		<li>Increased Accessibility</li>
 		<li>Separating style (CSS) from structure (HTML), makes it easier to maintain</li>	
 	</ul>
-</div>
 </section>
 
 <aside>
-<h2 id="todo">To Do</h2>
-<div class="contblock">
+<h2>To Do</h2>
 	<ul>
 		<li>Download, review, and complete the homework assignment from <a href="https://learn.bcit.ca/">D2L</a></li>
 		<li>Confirm you have access to your <a href="#student_webspace">online webspace</a> and that your FTP credentials are valid</li>
@@ -487,8 +493,7 @@
 		</ul>		
 		</li>
 	</ul>
-	<p>...and yes, there will be a practical, open book quiz at the start of session #2! (hint: practice using a browser based diagnostic tool)</p>	
-</div><!-- page content ends -->	
+	<p>...and yes, there will be a practical, open book quiz at the start of session #2! (hint: practice using a browser based diagnostic tool)</p>	<!-- page content ends -->	
 </aside>
 
 <!-- footer begins -->
@@ -500,5 +505,6 @@
 </div>
 <!-- footer ends -->
 </div><!-- container div -->
+</main>
 </body>
 </html>
