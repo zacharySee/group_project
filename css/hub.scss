@@ -21,31 +21,27 @@ h3, h4, h5, h6{
 	color:#3C4663;
 }
 a{
-	font-weight:bold;
-	color:#cd664b;	
+    font-weight:bold;
+    color: black;
 	text-decoration:none;
 }
 a:hover{
-	color:#FF8362;	
+	color:#bf1313;	
 	text-decoration:underline;	
 }
 
 header{
-	background-color:#c5c5c5;	
+	background-color:#f5f5f5;	
 	height:120px;
 	overflow:auto;	
-    padding-top:25px;
-    padding-bottom: 5%;
-    border-bottom:solid 5px #3C4663;
-    border-top:solid 6px #cd664b;
+    border-bottom:solid 5px #bf1313;
     
-    h1:nth-of-type(1){
-        font-size:15px;
-        margin-top:10px;
+    h1{
+        margin-top: 3%;;
         color:#3C4663;	
     }
 
-    h2:nth-of-type(1){
+    h2{
         color:#3C4663;	
         position:relative;
         top:30px;
@@ -61,11 +57,9 @@ header{
 }
 
 .contblock{
-	background-color:#efefef;
 	margin:10px;		
 	padding:10px;	
-	border:dotted 2px #BB7365;
-	border-style:dotted solid solid dotted;
+	border-bottom:solid 5px #bf1313;
 	border-width:1px 2px 2px 1px;
     overflow:auto;
 
@@ -88,6 +82,15 @@ header{
     margin-bottom: 10%;
 }
 
+.siteH1{
+        margin-top: 3%;;
+        color:#3C4663;	
+}
+
+.left{
+    width: 30%;
+}
+
 .wrapper{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -98,15 +101,13 @@ header{
 }
 
 footer{
-	background-color:#fae5e0;
+	background-color:#f5f5f5;
 	height:30px;
 	text-align:center;	
 	border-bottom:solid 5px #6D748C;
-    border-top:dotted 1px #6D748C;
     
     ul{
         list-style-type:none;
-        position:relative;
         bottom:10px;
         margin-left:auto;
         margin-right:auto;
@@ -120,13 +121,22 @@ footer{
         li{
             float:left;	
             padding-right:80px;
+            margin-top: 2%;
         }
     }
 }
 
 /* For mobile phones: */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     header{
+        width: 100%;
+
+        h1 {
+            margin-top: 6%;
+        }
+    }
+
+    .left{
         width: 100%;
     }
 
